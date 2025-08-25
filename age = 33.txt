@@ -1,0 +1,18 @@
+age = 33
+
+pi = 3.142936779845875
+
+price = 199.99
+
+bool my
+turn = True
+
+name = "Cillian Murphy"
+
+set1 = {6,4,7,3,5,8}
+
+list1=[11,22,33,44,55]
+
+Tuple1=(11,22,33)
+
+dict1={ "John" : 33 , "Abraham" : 44 , "Klaus" : 15 }
