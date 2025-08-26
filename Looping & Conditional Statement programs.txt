@@ -1,0 +1,52 @@
+1. Print even numbers with a given integer 'n'
+
+soln:
+                                                  # Program with a for loop and an 'if' statement
+n=int(input())
+for i in range(0,n):
+	if i%2==0:
+		print("Even Number")
+		
+
+2. Print Even and Odd numbers with a given integer 'n'
+
+soln:
+                                                  # Program with a for loop and an 'if' statement
+n=int(input("Enter the number:"))
+for i in range(0,n):
+	if i%2==0:
+		print("Even Number")
+	else:
+		print("Odd Number")
+
+3. Print until enough?
+
+soln:
+
+str=input("Enter your message:")
+mess=1
+while(mess!=0):
+    print(str)
+    mess1=int(input("Do you want to continue?? (1,0): "))
+    if mess1==0:
+        break
+
+    else:
+        continue
+
+4. Check if employee is Available or Not.
+
+soln:
+
+List1=[101,102,103,104,105,106,107]
+n=int(input("Enter the Employee ID you want to retrive:"))
+
+if n in List1:
+    print("The particular employee is Present.")
+
+else:
+    print("The particular employee is Absent.")
+
+
+
+
